@@ -10,7 +10,7 @@ end
 end)
 
 local mod = main:Button("Destoy", function()
-game:GetService("Workspace").Camera["Model"]:Destoy()
+game:GetService("Workspace").Camera["Model"]:Destroy()
 end)
 
 local mod = main:Button("AUTO KILL", function()

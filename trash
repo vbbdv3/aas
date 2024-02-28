@@ -13,7 +13,7 @@ local mod = main:Button("AUTO KILL", function()
 _G.enabled = not _G.enabled
 
 local lplr = game.Players.LocalPlayer
-local enemies_folder = workspace._ENEMIES["10"]
+local enemies_folder = workspace.Enemies
 local target;
 
 function getClosestEnemy()

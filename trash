@@ -9,6 +9,10 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("Destoy", function()
+game:GetService("Workspace").Camera["Model"]:Destoy()
+end)
+
 local mod = main:Button("AUTO KILL", function()
 _G.enabled = not _G.enabled
 

@@ -1,0 +1,31 @@
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("AAS")
+
+local mod = main:Button("Autoclick", function()
+_G.Autoclick_enabled = not _G.Autoclick_enabled
+while _G.Autoclick_enabled do
+game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("dazzycoin_knit@0.1.4").knit.Services.AttackService.RE.Attack:FireServer()
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Laffy", function()
+_G.Laffy_enabled = not _G.Laffy_enabled
+while _G.Laffy_enabled do
+local args = {
+    [1] = "Laffy",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("dazzycoin_knit@0.1.4").knit.Services.EggService.RF.Open:InvokeServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("RENDER TRUE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(true) -- включён
+end)
+
+local mod = main:Button("RENDER FALSE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(false) -- выключен
+end)

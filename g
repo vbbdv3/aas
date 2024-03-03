@@ -13,6 +13,6 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.Framework.Network.Remote.Event:FireServer(unpack(args))
 
-wait(0.1)
+wait(4)
 end
 end)

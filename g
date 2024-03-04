@@ -48,9 +48,9 @@ wait(0.1)
 end
 end)
 
-local mod = main:Button("Combat", function()
-_G.Combat_enabled = not _G.Combat_enabled
-while _G.Combat_enabled do
+local mod = main:Button("TP", function()
+_G.TP_enabled = not _G.TP_enabled
+while _G.TP_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5732.0234375, 190.3814697265625, 2130.0849609375)
 wait(59)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5733.4755859375, 190.38148498535156, 2195.022705078125)

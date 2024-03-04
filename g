@@ -45,14 +45,35 @@ local args = {
 }
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
 wait(0.1)
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\4",
+            [2] = "Combat",
+            [3] = 5,
+            [4] = false,
+            [5] = game:GetService("Players").LocalPlayer.Character.Hie,
+            [6] = "Fruit"
+        },
+        [2] = {
+            [1] = "\n",
+            [2] = workspace.__GAME.__Mobs.Ilha_05.CatPirate4,
+            [3] = game:GetService("Players").LocalPlayer.Character.Hie
+        }
+    }
+}
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+wait(0.1)
 end
 end)
 
 local mod = main:Button("TP", function()
 _G.TP_enabled = not _G.TP_enabled
 while _G.TP_enabled do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5732.0234375, 190.3814697265625, 2130.0849609375)
-wait(59)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5777.962890625, 190.38150024414062, 2123.474365234375)
+wait(4)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5733.4755859375, 190.38148498535156, 2195.022705078125)
+wait(4)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5733.4755859375, 190.38148498535156, 2195.022705078125)
 wait(1)
 end

@@ -68,3 +68,25 @@ game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
 wait(0.5)
 end
 end)
+
+
+local mod = main:Button("StartCastFishing", function()
+_G.Combat_enabled = not _G.Combat_enabled
+while _G.Combat_enabled do
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\4",
+            [2] = "Combat",
+            [3] = 4,
+            [4] = false,
+            [5] = game:GetService("Players").LocalPlayer.Character.Hie,
+            [6] = "Fruit"
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+wait(0.5)
+end
+end)

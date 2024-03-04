@@ -71,9 +71,9 @@ local mod = main:Button("TP", function()
 _G.TP_enabled = not _G.TP_enabled
 while _G.TP_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5777.962890625, 190.38150024414062, 2123.474365234375)
-wait(5)
+wait(4)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5732.1513671875, 190.38153076171875, 2128.909423828125)
-wait(5)
+wait(4)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5734.99755859375, 190.3815155029297, 2189.640869140625)
 wait(1)
 end

@@ -34,12 +34,14 @@ local args = {
             [2] = "skillsControl",
             [3] = "Magnet",
             [4] = "C",
-            [5] = "Release",
-            [6] = Vector3.new(6936.015625, 133.46844482421875, 5323.7236328125)
+            [5] = "Hold",
+            [6] = Vector3.new(6914.65869140625, 157.0580291748047, 5376.42529296875)
         }
     }
 }
+
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+
 wait(0.5)
 local args = {
     [1] = {
@@ -62,11 +64,12 @@ local args = {
             [2] = "skillsControl",
             [3] = "Magnet",
             [4] = "V",
-            [5] = "Release",
-            [6] = Vector3.new(6936.015625, 133.46844482421875, 5323.7236328125)
+            [5] = "Hold",
+            [6] = Vector3.new(6914.65869140625, 157.0580291748047, 5376.42529296875)
         }
     }
 }
+
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
 wait(0.5)
 local args = {
@@ -90,11 +93,12 @@ local args = {
             [2] = "skillsControl",
             [3] = "Magnet",
             [4] = "B",
-            [5] = "Release",
-            [6] = Vector3.new(6936.015625, 133.46844482421875, 5323.7236328125)
+            [5] = "Hold",
+            [6] = Vector3.new(6914.65869140625, 157.0580291748047, 5376.42529296875)
         }
     }
 }
+
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
 wait(0.5)
 local args = {
